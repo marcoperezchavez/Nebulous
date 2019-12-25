@@ -8,8 +8,8 @@ import { FormsModule } from '@angular/forms';
 })
 export class HomeComponent implements OnInit {
 
-  number1: string = '65';
-  number2: string = '8921';
+  number1: string = '';
+  number2: string = '';
   generatorA: number = 16807;
   generatorB: number = 48271;
   invalid: boolean = false;
